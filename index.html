@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عداد الأرقام</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #039262;
+        }
+       .back{
+         border:1px solid #0392ff;
+         background: #0392ff;
+         width:38vh;
+         height: 170vw;
+         border-radius: 15px;
+        
+       }
+        #counter {
+          
+          width: 38vh;
+            font-size: 50px;
+            
+            font-family:Monospace ;
+            position:relative;
+            top: 100px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #039262;
+            border: 0;
+            border-radius: 10px;
+            color: #fff;
+            margin-right: 10px;
+            margin-top:40px;
+        }
+        .res{
+          background-color: red;
+        }
+        .ds{
+          background: #833736;
+          width: 38vh;
+          height: 50vw;
+          border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+          position: relative;
+          top:338px;
+          border-top-left-radius: 50px;
+           border-top-right-radius:  50px;
+           box-shadow: 1px -5px 10px #000;
+           
+        }
+    </style>
+</head>
+<body>
+<div class="back">
+    <h1>المسبحة الالكترونية</h1>
+    <div id="counter">0</div>
+   
+   
+    <div class="ds">
+       <button onclick="increaseNumber()">سبحان الله</button>
+        <button onclick="resetCounter()" class="res">احذف</button>
+    </div>
+   
+    </div>
+    <script>
+        let count = 0;
+        function increaseNumber() {
+            count++;
+            document.getElementById("counter").innerText=count;
+            
+        }
+        
+        function resetCounter() {
+        document.getElementById("counter").innerText = "0";
+        }
+
+    </script>
+
+</body>
+</html>
