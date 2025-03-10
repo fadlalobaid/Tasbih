@@ -1,0 +1,79 @@
+@media (max-width: 600px) {
+    .con {
+        display: block;
+        background-color: rgb(23, 66, 56);
+        width: 80%;
+        height: 75px;
+        margin-left: 25px;
+
+        font-family: "Reem Kufi", sans-serif;
+        font-optical-sizing: auto;
+    }
+    .add {
+        width: 40%;
+        height: 75px;
+        margin: 5px 0px 5px 25px;
+
+        border-radius: 0px 15px 0px 15px;
+
+        font-family: "Reem Kufi", sans-serif;
+        font-optical-sizing: auto;
+        color: aliceblue;
+    }
+    .res {
+        width: 39%;
+        height: 75px;
+        border-radius: 15px 0px 15px 0px;
+
+        font-family: "Reem Kufi", sans-serif;
+        font-optical-sizing: auto;
+        color: aliceblue;
+    }
+
+    .head1 {
+        text-align: center;
+        color: rgb(23, 66, 56);
+
+        font-family: "Reem Kufi", sans-serif;
+        font-optical-sizing: auto;
+    }
+
+    .content {
+        animation: edge 5s infinite linear;
+    }
+    @keyframes edge {
+        0% {
+            border: 2px solid green;
+        }
+        10% {
+            border: 2px solid rgb(0, 128, 77);
+        }
+        20% {
+            border: 2px solid rgb(0, 124, 128);
+        }
+        30% {
+            border: 2px solid rgb(0, 66, 128);
+        }
+        40% {
+            border: 2px solid rgb(128, 0, 124);
+        }
+        50% {
+            border: 2px solid rgb(96, 0, 128);
+        }
+        60% {
+            border: 2px solid rgb(128, 0, 32);
+        }
+        70% {
+            border: 2px solid rgb(55, 128, 0);
+        }
+        80% {
+            border: 2px solid rgb(0, 19, 128);
+        }
+        90% {
+            border: 2px solid rgb(77, 0, 128);
+        }
+        100% {
+            border: 2px solid green;
+        }
+    }
+}

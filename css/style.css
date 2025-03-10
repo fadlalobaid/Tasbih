@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(140, 105, 58);
+  padding:0px 5px 0px 5px ;
+}
+.con{
+  display: inline-block;
+  background-color: rgb(23, 66, 56);
+  width: 38%;
+  height: 75px;
+  text-align: center;
+  font-size: 52px;
+  color: aliceblue;
+  border-radius: 15px 15px 0px 0px;
+
+}
+.add{
+  width:30%;
+  height: 75px;
+  font-size: 25px;
+  text-align: center;
+  text-wrap:unset;
+  background-color: green;
+  border:0;
+  border-radius:15px 0px;
+  
+}
+.res{
+  width: 30%;
+  height: 75px;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(105, 13, 13);
+  border:0;
+  border-radius:0px 15px;
+}
+.tsbih{
+  margin: 5px;
+}
+.hmd{
+  margin: 5px;
+}
+.tkbeer{
+  margin: 5px;
+}
+.content{
+  border: 1px solid ;
+  display: inline-block;
+  border-radius: 15px 15px 0px 0px;
+  width:95%;
+  padding: 10px;
+}
