@@ -1,4 +1,6 @@
 let count = 0;
+let countH = 0;
+let countT = 0;
 
 function increaseNumber() {
   count++;
@@ -10,21 +12,21 @@ function resetCounter() {
   document.getElementById("counter").innerText = count;
 }
 function increaseNumberH() {
-  count++;
-  document.getElementById("counter_h").innerText = count;
+  countH++;
+  document.getElementById("counter_h").innerText = countH;
 }
 
 function resetCounterH() {
-  count = 0; // تصفير العداد فعليًا
-  document.getElementById("counter_h").innerText = count;
+  countH = 0; // تصفير العداد فعليًا
+  document.getElementById("counter_h").innerText = countH;
 }
 
 function increaseNumberT() {
-  count++;
-  document.getElementById("counter_t").innerText = count;
+  countT++;
+  document.getElementById("counter_t").innerText = countT;
 }
 
 function resetCounterT() {
-  count = 0; // تصفير العداد فعليًا
-  document.getElementById("counter_t").innerText = count;
+  countT = 0; // تصفير العداد فعليًا
+  document.getElementById("counter_t").innerText = countT;
 }
